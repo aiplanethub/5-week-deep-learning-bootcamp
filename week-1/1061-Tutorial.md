@@ -1,0 +1,4 @@
+# Notebooks: Neural Networks for Regression & Hyperparameter Tuning
+
+* Notebook on Neural Networks for Regression: [https://dphi.tech/notebooks/843/gunnika/linear-regression-with-tensorflow-keras?](https://dphi.tech/notebooks/843/gunnika/linear-regression-with-tensorflow-keras?)
+* Notebook on Regression & Hyperparameter tuning: [https://dphi.tech/notebooks/844/gunnika/linear-regression-and-hyperparameter-tuning-using-tensorflow-keras-and-kerastuner?](https://dphi.tech/notebooks/844/gunnika/linear-regression-and-hyperparameter-tuning-using-tensorflow-keras-and-kerastuner?)
