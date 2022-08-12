@@ -1,6 +1,6 @@
 TIP #0: If you don't have context about Google Colab & Jupyter notebook, please refer to optional slides about related topics under Week 0.
 
-### Learning Objectives
+## Learning Objectives
 
 * CPU, GPU, and TPU
 * GPU Packages for Deep Learning
@@ -62,9 +62,9 @@ For performing Deep Learning operations, 2 GPU Packages are configured while ins
 * It is built using CUDA and provides GPU accelerated functionality and highly tuned implementations for common operations in deep neural nets.
 * Deep learning researchers and framework developers worldwide rely on cuDNN for high-performance GPU acceleration. It allows them to focus on training neural networks and developing software applications rather than spending time on low-level GPU performance tuning.
 
-### **Setting up Tensorflow**
+## Setting up Tensorflow
 
-### **Option 1: Google Colab (Virtual Environment - No installation required)**
+### Option 1: Google Colab (Virtual Environment - No installation required)
 
 * Google oﬀers Google Colab notebooks (also called the online version of Jupyter notebook) that are an **easy-to-use and interactive data science environment.**
   * Not just that, Google Colab oﬀers you up to 12 GB ram/GPU/TPU, etc. **for free** and 100 GB storage.
@@ -154,7 +154,7 @@ To install Tensorflow on device
 
 
 
-### Checking the version of TensorFlow
+## Checking the version of TensorFlow
 
 * Open a Jupyter Notebook/Google Colab
 * In a cell, type and execute the following command:
