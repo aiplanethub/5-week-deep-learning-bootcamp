@@ -1,16 +1,14 @@
-# Setting Up of TensorFlow
-
-TIP #0: If you don’t have context about Google Colab & Jupyter notebook, please refer optional slides provided about related topics under Week 0.
+TIP #0: If you don’t have context about Google Colab & Jupyter notebook, please refer to optional slides provided about related topics under Week 0.
 
 ### Learning Objectives
 
-* CPU, GPU and TPU
+* CPU, GPU, and TPU
 * GPU Packages for Deep Learning
 * Setting up TensorFlow
 * Importing TensorFlow and checking its version\
 
 
-**TIP:** You **DON’T need to memorize** the below jargons!
+**TIP:** You DON’T need to memorize the below jargons!
 
 ### CPUs
 
@@ -18,24 +16,36 @@ TIP #0: If you don’t have context about Google Colab & Jupyter notebook, pleas
 
 ### GPUs
 
-* **GPU** stands for graphics processing unit. You'll also see GPUs commonly **** referred to as **graphics cards** or **video cards**. Every PC uses a GPU to render images, video and 2D or 3D animations for display. A GPU performs quick math calculations and frees up the CPU to do other things.
-* The introduction of GPUs led to the rise of gaming industries and industries that provide high quality visuals. GPUs are not only used in machine learning related work but are also highly useful for content creators, digital artists and gamers.
+* **GPU** stands for the graphics processing unit. You'll also see GPUs being referred to as **graphics cards** or **video cards**. Every PC uses a GPU to render images, video, and 2D or 3D animations for display. A GPU performs quick math calculations and frees up the CPU to do other things.
+* The introduction of GPUs led to the rise of gaming industries and industries that provide high-quality visuals. GPUs are not only used in machine learning-related work but are also highly useful for content creators, digital artists, and gamers.
 * GPUs play a crucial role while training Deep Learning models. To learn what makes them so important, we would recommend you to go through a very interesting article below that explains why GPUs are necessary for training Deep Learning models:
 * [Why are GPUs necessary for training Deep Learning models?](https://www.analyticsvidhya.com/blog/2017/05/gpus-necessary-for-deep-learning/)
 
 ### TPUs
 
-* Tensor Processing Unit i.e **TPU** is a designated architecture for DL/ML computation which is designed by Google. It’s not a generic processor, only Tensorflow models can run on it.
+* Tensor Processing Unit, i.e., **TPU**, is a designated architecture for DL/ML computation designed by Google. It’s not a generic processor; only Tensorflow models can run on it.
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FBtzbc4IuvXSMrUHCdj3c%2F19?alt=media)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_243a7ce7dd614c6daa7cb2d6d31d27e9.png)
+
+
+
+
+
+
 
 * TPU outperforms CPU and GPU for various Deep Learning models in terms of predictions per second. Source: Sato et al. 2017.
 * If you wish to know more about TPUs, you can read the below article: [https://cloud.google.com/tpu](https://cloud.google.com/tpu)
 
 ### Why GPU and TPU?
 
-* CPU can be used to train the model where data is relatively small. The GPUs were introduced as the CPU were slower when dealing with data that contained required huge computations.
-* In nutshell, GPUs and TPUs are used for reducing the computation time to train eﬃciently a deep learning model when large datasets need to be processed.
+* CPU can be used to train the model where data is relatively small. The GPUs were introduced as the CPU was slower when dealing with data that contained required huge computations.
+* In a nutshell, GPUs and TPUs are used to reduce the computation time to train eﬃciently a deep learning model when large datasets need to be processed.
 
 ### What GPU Packages are required for DL?
 
@@ -76,7 +86,30 @@ For performing Deep Learning operations, 2 GPU Packages are configured while ins
 * The ability to choose diﬀerent types of runtimes is what makes Colab so popular and powerful. Here are the steps to change the runtime of your notebook:
 * **STEP 1:** Click ‘Runtime’ on the top menu and select ‘Change Runtime Type’:
 
-![](https://lh3.googleusercontent.com/4Jvb0nXH55S9rqH\_gSd2\_B0qP8aAQubPIVWAhK3Tg0gf8-K0ipmqIezxMe8Pu9t4LWdJSETtUeBhNSQYNJyouRL5ghk9-BX2aC3pwRUwdr-6JGrmfnNiZ-dZGGjifecAVa8Y2LdJdzs)
+
+
+
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_bd3f6ddb7aae4ae88b07631f72052720.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 * **Step 2:** Here you can change the runtime according to your need:
   * To install Tensorflow on Colab
@@ -84,7 +117,7 @@ For performing Deep Learning operations, 2 GPU Packages are configured while ins
   * Type the following command: **`!pip install tensorflow`**
 * Once the installation is done, run the below command to import tensorflow: **`import tensorflow as tf`**
 
-### **Option 2: Installing on Device**
+### Option 2: Installing on Device
 
 To install Tensorflow on device
 
@@ -92,15 +125,55 @@ To install Tensorflow on device
 * Type the following command: **`!pip install tensorflow`**
 * Once the installation is done, run the below command to import tensorflow: **`import tensorflow as tf`**
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/VC-EliTgMEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### **Checking the version of TensorFlow**
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Checking the version of TensorFlow
 
 * Open a Jupyter Notebook/Google Colab
 * In a cell type and execute the following command:
 
-![](https://lh3.googleusercontent.com/JmI\_RUbOySTE57z\_ojpn0oLSHLoSPM2juv-o3PX9M2V8SYqlrOzmCSQGoJc-SUsIrA18M9YNCXuzPSPypjvS\_9Eg6AkdGTAUevszlUlEyQnOJ91MGtlz98r7QwPjRAmvcMaqrQ\_Sq3k)
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_3f37a8a4107c49709d8850e77d8768ca.png)
+
+
+
+
+
+
+
 
 * Make sure the displayed version starts with 2 i.e ensure Tensorflow 2 has been installed. If not, you can upgrade Tensorflow: Pip upgrade: [https://stackoverflow.com/a/47342614](https://stackoverflow.com/a/47342614)\
   Conda upgrade: conda upgrade tensorflow-gpu
@@ -108,5 +181,5 @@ To install Tensorflow on device
 
 ### Additional Resources on Installation!
 
-* [Install Tensorflow GPU on Windows 10 with](https://www.youtube.com/watch?v=xQVOaTUm9lM) [CUDA and cuDNN](https://www.youtube.com/watch?v=xQVOaTUm9lM)\
-  <**Intermediate/advanced Learners can explore** **this option**. For rest, we can gradually get there **** whenever required, for the moment, you can simply go with Google Colab or the device installation mentioned couple of slides earlier>
+* [Install Tensorflow GPU on Windows 10 with CUDA and cuDNN](https://www.youtube.com/watch?v=xQVOaTUm9lM)\
+  **Intermediate/advanced Learners can explore this option**. For rest, we can gradually get there whenever required. For the moment, you can simply go with Google Colab or the device installation mentioned earlier.
