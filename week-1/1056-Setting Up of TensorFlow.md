@@ -58,7 +58,7 @@ For performing Deep Learning operations, 2 GPU Packages are configured while ins
 
 **cuDNN:**&#x20;
 
-* The NVIDIA CUDA Deep Neural Network library (cuDNN) **** is a GPU-accelerated library for deep neural networks.
+* The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library for deep neural networks.
 * It is built using CUDA and provides GPU accelerated functionality and highly tuned implementations for common operations in deep neural nets.
 * Deep learning researchers and framework developers worldwide rely on cuDNN for high-performance GPU acceleration. It allows them to focus on training neural networks and developing software applications rather than spending time on low-level GPU performance tuning.
 
@@ -75,7 +75,7 @@ For performing Deep Learning operations, 2 GPU Packages are configured while ins
   * CPUs,
   * GPUs, and
   * TPUs
-* **Why GPU/TPU?** In a nutshell, GPUs and TPUs are used for reducing the **** computation time to train eﬃciently a deep learning model when large datasets need to be processed.
+* **Why GPU/TPU?** In a nutshell, GPUs and TPUs are used for reducing the computation time to train eﬃciently a deep learning model when large datasets need to be processed.
 
 **TPUs**
 
