@@ -1,5 +1,3 @@
-# Neural Networks for Regression
-
 ### Learning Objectives
 
 * Equation of a Straight Line
@@ -9,25 +7,62 @@
 * Epochs&#x20;
 * Batch Size
 
-### What is Slope of a Line?
+### What is the Slope of a Line?
+
+
+
+
+
+
+
+
+
 
 <iframe width="100%" height="315" src="https://youtube.com/embed/MeU-KzdCBps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+
+
+
+
+
+
+
 This is an optional video. Go through it if you don’t know what a slope of a line is.
-{% endembed %}
 
 ### Equation of a Straight Line
 
-* In algebra, a linear equation (equation of a straight line) typically takes the form y = mx + b, where m and b are constants, **x is the independent variable, y is the dependent variable.**
-* Basically, the value of y is being calculated using x whereas x has no dependence on value of y.
-* y = how far up x = how far along m = Slope or Gradient (how steep the line is) b = value of y when x=0
+* In algebra, a linear equation (equation of a straight line) typically takes the form y = mx + b, where m and b are constants, **x is the independent variable, and y is the dependent variable.**
+* Basically, the value of y is calculated using x, whereas x has no dependence on the value of y.
+* y = how far up  
+x = how far along  
+m = Slope or Gradient (how steep the line is)  
+b = value of y when x=0
 
-![](https://lh6.googleusercontent.com/OaGsViGYz81XFJ4mHvNN6unULCfmtX1nDYqa3VlgU\_LJYvS9M8AiTEFD6q6YoXOw9m3eGO4Vh6wjKQzzVzAK9UTGG1KeHuE5mkDksxGiGxWpnZ31eaMgJETazxJ0nnKkin\_fsqcXHPQ)
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_1a89c06b1ee44bd89a987d45cd18dcd6.png)
+
+
+
+
+
+
+
+
+
 
 * **How do you find "m" and "b"?**
-  * b is easy: just see where the line crosses the Y axis.&#x20;
-  * m (the Slope) needs some calculation:
-  * ![](https://lh4.googleusercontent.com/jhEEyf0eV4qhw0B7dRsg2DMqbkDcw5WGVvjj-eWc\_-euBjhjEr0gjBnmVh8fO8sS2NknIOuUePqeiS425D4-ogRHT2cykG8BJRBgLsa-dZWRnPapBp7qKs0aidWx1JnQdgHFuckZYQo)
+  * b is easy: see where the line crosses the Y axis.&#x20;
+  * m (the Slope) needs some calculation:  
+  ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_54812abaaa8c4fdfbfae7de61caee219.png)
 
 ### What is linear regression? - an example
 
