@@ -1,8 +1,17 @@
-# Session Slide: Introduction to Neural Networks & its working
-
 ### **Why Deep Learning?**
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FavnijFAcmIbFtTtxgXjI%2F3?alt=media)
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_a5880164c5104f399a486f664fa9a978.png)
+
+
+
+
+
+
 
 * With increase in data, there is increase in the performance of the algorithm.
 * The same is not true for other Machine learning algorithms, as they reach a plateau after a certain amount of data is provided
@@ -14,7 +23,19 @@
 
 * In brain neurons, signal is transmitted from one neuron to another till it reaches the nerve endings.
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FdPUZBuDRzqCGJ3c1n5M2%2F6?alt=media)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_07983c4002b44c4ba0d0f6c36bc25571.png)
+
+
+
+
+
+
 
 * **SYNAPSE**: The transfer of electric signal between two neurons
 
@@ -22,30 +43,76 @@
 
 * As the name suggests, Neural networks (also called as Artificial Neural Networks ANN) are inspired by the neurons in the human brain.
 
-![Neural Networks vs Brain Nervous System](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2F9gS5JG0f5vTk8sHgDZqf%2F9?alt=media)
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2F93k1WASzuiNNqm4lf2mc%2FScreen%20Shot%202022-03-14%20at%207.30.53%20PM.png?alt=media&token=330049cf-dca9-4d84-898e-03e796ef0228)
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_bd995ebdf5ca4a649f76edfc2231acc1.png)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_9fcaca1befdd492586998737603c9ac4.png)
+
+
+
+
+
+
 
 ### **Perceptron- Single Layer Perceptron**
 
 * Before we begin talking about Perceptron, let us look at a general dataset
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FpFMlNSk3FsJAY39r26Xd%2FScreen%20Shot%202022-03-14%20at%207.31.32%20PM.png?alt=media&token=666ccd68-f3cc-4d79-b906-b43f01c821e7)
 
-### **Perceptron-Single Layer Perceptron**
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_b1ae7b3ba5e9419591723a19457dd963.png)
+
+
+
+
+
 
 * Like a single unit in Neural Network is called Neuron, the single most basic unit in Artificial neural network is called Perceptron.
 * The various features of our dataset (independent values) are given as input x1, x2, x3,.... xn.
 * Each input feature is given a weight to determine how important it is.
 * Perceptron makes a decision y (dependent variable) on the basis of an activation function.
 
-![](https://lh4.googleusercontent.com/Sqi6-cX51iJe64raDIGvSSeOpMJc0P3xoAMZ5GwQDRCZuJlyXb3W2gZ5S9jzCac6vGJzXHkExajx1aQR\_ULQd0RrZerAQyR-hEkxCK\_oQ7GrYAeTLVwQN8NjTPLBE2EsVifh6GIu2NtkIfOz-A)
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_cc2a514c55be452daf3e99cf942beedd.png)
+
+
+
+
+
+
 
 ### **Multi Layer Perceptron**
 
 When a perceptron that teams up with additional perceptrons, stacked in several layers, to solve complex problems.
 
-![](https://lh6.googleusercontent.com/A\_pGl7UoJQqQ-dKhrj5k0jhwj3RgN3uSPY2N1Q6mw8bMI6nux4Z19xBYgOH\_z5saSshFJL1Bcpxyf3uj8ZIFHjQu60r4DHD\_IY1KX3SuV5QAGso09YZuUSOCQaEJ-red8eP43B2RDmzmVSiu1A)
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_4cd208b066584fc09e1a1181a36f4549.png)
+
+
+
+
 
 In this example, we have three layers-
 
@@ -60,11 +127,37 @@ Hidden layers constitute of all the layers in a Neural Network other than the in
 * Hidden layers act like a black box - the internal mechanism is hidden.
 * Each layer contributes to the final output layer by applying some mathematical transformations.
 
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_a2f0d6f7c6994979b9bec05ee589f11b.png)
+
+
+
+
+
+
 ### **When is a Neural Network Called Deep?**
 
 * **Whenever there are more than 3 layers (Input, Hidden, Output) in a Neural Network, we call it a deep Neural network.**
 
-![](https://lh6.googleusercontent.com/dR0vKLEb8CE5346wfVOPMg77wF8lQ8CtwwTZ697Npco7NSC\_9dKVjSRUPIPo4AFBIb0yedwZil6p98uHOR0qjvdUwBaEztKHYtK6y9Ppm9LUnrN2YoR2s\_8KKGPxuI13wwAcVEiMGSlPk9scbQ)
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c71a4f5614af4b66a250a062d4f6f3a9.png)
+
+
+
+
+
+
+
 
 * Each hidden layer has a certain meaning for the final classification.
 * Each layer helps in classifying, a certain aspect of the final output layer
@@ -73,7 +166,18 @@ Hidden layers constitute of all the layers in a Neural Network other than the in
 
 **Let us consider a facial recognition Neural Network**
 
-![](https://lh3.googleusercontent.com/Zu\_jMIKZUbRPNSPO02JGKGQeBkHcU2jfuLsKs7HhsCN1mMNlElC7GXP2Pujb5AN3tQ8QFe28gQyxsChHVypSw484f4Xb-TpCnrqZ\_L10fgc43\_daZIK4nw6WZ\_fW43BMi\_xYNWMwPsUbgeDMAA)
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_599eb5d9e3c34b9498e50a6ff019797e.png)
+
+
+
+
+
+
 
 * The initial layers start small - They identify edges
 * The middle layer start to identify objects - like eyes, nose, ears etc.
@@ -81,7 +185,16 @@ Hidden layers constitute of all the layers in a Neural Network other than the in
 
 ### **Forward and Backward Propagation**
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FQ7bFhKnaWVnMmlxSsNji%2FScreen%20Shot%202022-03-14%20at%207.35.45%20PM.png?alt=media&token=917dce24-8297-446e-91e5-01100f50a530)
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_eb0f540ad5f74bf0af4cc1efb330e78a.png)
+
+
+
+
+
 
 * **Forward Propagation:** Signal goes from input layers towards output layers
 * **Backward Propagation:** Signal goes from output to input layers
@@ -98,17 +211,31 @@ Classification: **Predicting what class/group certain element belongs to.**
 
 ### **Neural Network Working: Handwriting recognition**
 
+
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/3JQ3hYko51Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
 
 
 ### **Frameworks for DL in Python**
 
 *   **TensorFlow:**&#x20;
-
     * Google’s DL framework.&#x20;
     * Can also work on ioS and Android
-
-    ****
 * **Pytorch:**&#x20;
   * Operates with a dynamically updated graph. It allows you to make changes to the architecture in the process.
 * **Sonnet:**
