@@ -16,7 +16,7 @@ In this bootcamp, there will be:
 ### Assignment Guidelines
 
 * There will be 2 Quizzes and 1 Final Assignment. All of them are mandatory to attempt for the bootcamp completion.
-* Certificate: In order to be eligible for the certificate, you should submit all the assignments with a total score of a minimum of 60%.
+* Certificate: In order to be eligible for the certificate, you should submit all the assignments with a total score of a minimum of 60%. You must also perform the peer review of fellow learners' submissions in the Final Assignment. You will receive a mail regarding peer review after the bootcamp ends. 
 
 ### Found any errors in content?
 
