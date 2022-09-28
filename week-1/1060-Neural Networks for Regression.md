@@ -68,7 +68,11 @@ b = value of y when x=0
 
 * Suppose you are thinking of selling your home. And, various houses around you with different sizes (area in sq.ft) around you have sold for different prices as listed below:
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FUR4TcVVm7eybwekvimSB%2F8?alt=media)
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_4c4e6c63d28940b2978e3584f0f9018c.png)
+
 
 
 
@@ -78,16 +82,55 @@ b = value of y when x=0
 * When you **look at the existing price patterns (data) and predict a price** **for your home** that is an example of **linear regression.**
 * Here's an easy way to do it. Plotting the 3 data points (information about previous homes) we have so far:
 
-![](https://lh3.googleusercontent.com/V2WsgQFVQvWaX8FFmAEss\_dyYj\_9S0kJdW3I3ZYmnq-DLnOLBugD7nkQWqZ2NO\_zr4bUwkd9B7JAVSrPk-kQAqgkCb7G8dQOw\_1ZcVEq9eu6NjSse0nB2zig9Bdkk3YjcDHH1-klYgE)
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_eb58cf2fe15b4a27872f3073c81ca650.png)
+
+
+
+
+
+
+
 
 * Now you can eyeball it and roughly draw a line that gets pretty close to all of these points. Then look at the price shown by the line, where the square footage is 3000:
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2F313IAyPDqfikrig0TEYN%2F12?alt=media)
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_d13e7f17a50448058eb7c03d640c653f.png)
+
+
+
+
+
+
+
+
 
 * Boom! Your home should sell for $260,000.
 * That's all! (Well kinda) You plot your data, make a rough line, and use the line to make predictions. You just need to make sure **your line fits** **the data well** (but not too well :)
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FUefQ7DGPRJ6YkteezHrM%2F15?alt=media)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_9e6c2b28fa834e4a80ba97aa6df0f8d3.png)
+
+
+
 
 **But of course we don't want to roughly make a line, we want to compute the exact line that best "fits" our data. That’s where**
 
@@ -101,22 +144,70 @@ b = value of y when x=0
 
 * **How do you decide what line is good? Here's a bad line:**
 
-![](https://lh4.googleusercontent.com/uAt5GtGh4QUYu1srMGpETz1XrLOwdqGHBe1qVUdrmCfm3vPMMDzMxAKQegD6UTHJp69wIOxgo2K--wztRd0vHF3itSSP0aK\_t-gshsWCP8r1Nb\_IAYmugsvmElV5qe1IlViJ7jgyvEM)
 
-* **This above drawn line is way oﬀ. For example, according to the line, a 1000 sq foot house should sell for $310,000, whereas we know it actually sold for $200,000.**
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_c1cbe59847ce465db2c624e787a5ba1f.png)
+
+
+
+
+
+
+
+* **This above drawn line is way oﬀ. For example, according to the line, a 1000 sq foot house should sell for \$310,000, whereas we know it actually sold for \$200,000.**
 
 ### What is Residual?
 
 * In the video instead of house size and it’s price, the tutor has used height and weight of people. There is nothing to worry. Just understand the residual concept.
 
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/MgFHbjbAW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
 
 ### **Here's a better line:**
 
-![](https://lh3.googleusercontent.com/DRtyqH57Lga\_CN7YEhuF2cGJ4zmGizAhWaOQFrAhPY7rOGXwrLF8DsUvtRNSTCcH3JSuOUw0CVM65VqJbWjsOBVDKlI0qrpoNlnFgTH1Om5T9nDrJaFv7ldMkaws4oQ19Dpg5ugSXUQ)
 
-* The **residual** (absolute diﬀerence between the actual and the predicted value) in this case are: $5000, $15000 and $5000.
-* This line is an average of **$8,333** dollars oﬀ **** (adding all the distances and dividing by 3).
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_d856f3d810894c66b68360c30452cda6.png)
+
+
+
+
+
+
+
+
+
+* The **residual** (absolute diﬀerence between the actual and the predicted value) in this case are: \$5000, \$15000 and \$5000.
+* This line is an average of **$8,333** dollars oﬀ (adding all the distances and dividing by 3).
 * This **$8,333** is called the **cost** of using this line.
 
 ### Cost
@@ -126,7 +217,20 @@ b = value of y when x=0
 * In ML, cost functions are used to estimate how badly models are performing.
 * Put simply, a cost function is a measure of how wrong the model is in terms of its ability to estimate the relationship between X and y.
 
-![](https://lh6.googleusercontent.com/scVcazKuVjxvMbIzy4HklgqANkZTQCgSUq0gcT4uft2A8MuS5vt\_pLQ\_xFZioR\_9R76kyo9jz1JGNjAceUrcgXBhAGMjtC9IkJjNFjw2vtSahYDNLFddR5FhhmR03nAzQhckAu-omO0)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_4c8a852a6e7c42baac5af4b8559842f7.png)
+
+
+
+
+
+
+
 
 ### Cost Function
 
@@ -153,19 +257,60 @@ b = value of y when x=0
 ### Learning Rate
 
 * A scalar used to train a model via gradient descent. During each iteration, the gradient descent algorithm multiplies the learning rate by the gradient.&#x20;
-* The resulting product is called the gradient step. **** Learning Rate is a key hyperparameter.
+* The resulting product is called the gradient step. Learning Rate is a key hyperparameter.
 * Don’t worry if you don’t understand it, you will understand this when you will be introduced to Gradient Descent.
 * For the time being, just consider it as a hyperparameter of the deep learning model whose values effects the performance of the model
 
 ### Epochs
 
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/qwZih4SZfu0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
 
 * This is nothing but the number of loops that you want through the training dataset.
 
 ### Batch Size
 
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/PmwNZGrrggE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 * This is the number of samples in an epoch used to estimate model error
