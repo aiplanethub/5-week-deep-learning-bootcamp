@@ -114,8 +114,8 @@ For performing Deep Learning operations, 2 GPU Packages are configured while ins
 * **Step 2:** Here, you can change the runtime according to your need:
   * To install Tensorflow on Colab
   * Open your Colab notebook
-  * Type the following command: **`!pip install tensorflow`**
-* Once the installation is done, run the below command to import tensorflow: **`import tensorflow as tf`**
+  * Type the following command: `!pip install tensorflow`
+* Once the installation is done, run the below command to import tensorflow: `import tensorflow as tf`
 
 ### Option 2: Installing on Device
 
