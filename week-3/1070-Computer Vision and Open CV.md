@@ -1,5 +1,3 @@
-# Computer Vision and Open CV
-
 ### Learning Objectives
 
 * **How do Computers see images?**
@@ -8,24 +6,57 @@
 
 
 
+## How do Computers see images?
+
 When we see this image, we can say, without even thinking, that this is an image of an adorable dog. Even an 8-year-old kid would not have any problem identifying the dog in the image.
 
-![](https://lh3.googleusercontent.com/2HPhg7MBTLpRrHoJqbFj-8MyQp67SAdCEfA0fV-FzXI1kGXvveLgFZNPBuDqZvS-VJnWnmCmlnnkQU6jGXfLpJuMXGOzCsDq8\_M4X5EH7FMf\_mb0hc8KUB1ylPPmTPo7zY7dXQyNxkQ)
 
-Have you ever wondered how a computer sees the same image?
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_15a3c79a17424048917a6078da0cd966.png)
+
+
+
+
+
+
+
+
+
+
 
 ### Pixel
 
 * A computer sees an image as 0s and 1s (binary digits).
 * **Pixel** is the smallest unit in an image.
 
-![](https://raw.githubusercontent.com/dphi-official/five-week-deep-learning-bootcamp/master/.gitbook/assets/image%20(22).png)
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_0afb3099aeb8489ca539000cddb7c3b5.png)
+
+
 
 * Pixel data diagram. At left, image of Lincoln; at center, the pixels labeled with numbers from 0–255, representing their brightness; and at right, these numbers by themselves. What is this? 0-255, it is RGB color combination values, we will learn about it soon.
 
-![](https://raw.githubusercontent.com/dphi-official/five-week-deep-learning-bootcamp/master/.gitbook/assets/image%20(23).png)
 
-* Ear has of the animal has been zoomed to show the pixel of an image
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_294be212a5b04da3866ddfa0b5e9d660.png)
+
+
+
+
+
+
+
+* The Ear of the animal has been zoomed to show the pixel of an image
 
 ### Channels
 
@@ -41,7 +72,12 @@ Once a colour is given a RGB Value, the computer extracts that value from each p
 
 Each pixel contains a different number of channels. If it is a **grayscale image,** **it has only one channel**, whereas if it is a **coloured image, it contains three channels: red, green and blue**.
 
-![](https://raw.githubusercontent.com/dphi-official/five-week-deep-learning-bootcamp/master/.gitbook/assets/image%20(24).png)
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_4f6c602214f343ac99a30b088c4cebba.png)
+
 
 As shown in the above representation of a digital coloured image, each channel of each pixel has a value between 0 and 255.
 
@@ -51,10 +87,20 @@ As shown in the above representation of a digital coloured image, each channel o
 * A matrix is formed for every primary color and later these matrices combine to provide a Pixel value for the individual R, G, B colors.
 * Consider the following image:
 
-![](https://lh4.googleusercontent.com/3IGlYkGueeHQ5yHNHOF9R8d\_1UzhhiEsc4MLG\_2rBEKBi08IQRmIrGMi57-IQMJb4aTVypLUPBHiuYTE8ivTKUZNjSKUbkqlxFbQM0gRnSYE7pJ14Yg4K1yXDtgWnQ38Lu4BDtDJ2iA)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_5b6aa9091df94fde89643e97c2842dbe.png)
+
+
+
+
 
 * Each matrix(the rectangular block) here belongs to either Red, Green or Blue. These 3 matrices combine to form 1 colour image.
-* **Note:** Images with 4, 5 or more channels also exist. An image can actually **** have up to 56 channels.
+* **Note:** Images with 4, 5 or more channels also exist. An image can actually have up to 56 channels.
 * For example, images used in sophisticated graphics editing use four channels: three channels for RGB plus an extra alpha or "a" channel.&#x20;
 * Also, a CMYK image has four channels: cyan, magenta, yellow, and key (black).
 * When we say 3 channels, we are considering images of the RGB type.
@@ -67,9 +113,29 @@ As shown in the above representation of a digital coloured image, each channel o
 * Can you now understand why?
 * (# means number of something)
 
-{% embed url="https://youtu.be/LLAgPtpZth8" %}
+
+
+
+
+
+
+
+
+
+
+
+
 
 <iframe width="100%" height="315" src="https://youtube.com/embed/LLAgPtpZth8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
 
 
 * The next question is, how can we say that the given image contains a picture of a dog?
@@ -81,9 +147,16 @@ As shown in the above representation of a digital coloured image, each channel o
 
 ### How we teach computers to understand pictures
 
-* [In this amazing TED Talk](https://www.youtube.com/watch?v=40riCqvRoMs), **Fei Fei Li** - the co-director of the Stanford Institute for Human-Centered Artificial Intelligence talks about the [ImageNet Dataset **** ](http://www.image-net.org)- **** _a large dataset of over 14 million images, designed_ **** _by academics intended for computer vision research_ that she created with __ fellow researchers.
+* [In this amazing TED Talk](https://www.youtube.com/watch?v=40riCqvRoMs), **Fei Fei Li** - the co-director of the Stanford Institute for Human-Centered Artificial Intelligence talks about the [ImageNet Dataset](http://www.image-net.org)- a large dataset of over 14 million images, designed by academics intended for computer vision research that she created with fellow researchers.
 * The video dates back to 5 years ago but is still relevant today. ImageNet has played an important role in the advancement of computer vision. It is useful for many computer vision applications and is one of the most popular datasets for Computer Vision till date.
 * She also talks about the Convolutional Neural Networks and the crucial role they are playing in this domain. We will be learning more about CNN’s in a Recorded Session in upcoming module.
+
+
+
+
+
+
+
 
 ### **Computer Vision**
 
@@ -100,7 +173,26 @@ As shown in the above representation of a digital coloured image, each channel o
 * Machine learning helped solve many problems that were historically challenging for classical software development tools and approaches. For instance, years ago, machine learning engineers were able to create a software that could predict breast cancer survival windows better than human experts. However building the features of the software required the eﬀorts of dozens of engineers and breast cancer experts and took a lot of time develop.
 * Deep learning provided a fundamentally diﬀerent approach to doing machine learning. Deep learning relies on neural networks, a general-purpose function that can solve any problem representable through examples. When you provide a neural network with many labeled examples of a specific kind of data, it’ll be able to extract common patterns between those examples and transform it into a mathematical equation that will help classify future pieces of information.
 
-![Image source: zbigatron](https://lh5.googleusercontent.com/TSTdvDz3ir4rqUJeP3VO9P-ejjCqym1J5-BY\_ZEdGHNLjGO6YOmYMYha8uVX8e3a7N5hkA6mkaJZyGM1wekpEhFPZdf7Aj3zFdxKoCWmeNyqXJLmIFiBuHq4jgWA--bFkMs8O\_Puu8E)
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_b9686f5367ce4b8b8e6585b767f2b8d9.png)
+_Image source: zbigatron_
+
+
+
+
+
+
+
+
+
+
+
 
 ### DL - The star of Computer Vision
 
@@ -109,62 +201,116 @@ As shown in the above representation of a digital coloured image, each channel o
 
 ### Applications Of Computer Vision
 
-**CV In Self-Driving(Autonomous) Cars**
+#### CV In Self-Driving(Autonomous) Cars
 
-Computer vision enables self-driving cars to **make sense of their surroundings.** Cameras capture video from diﬀerent angles around the car and feed it to computer vision software, which then processes the images in real-time to find the extremities of roads, read traﬃc signs, detect other cars, objects and pedestrians. The self-driving car can then steer its way on streets and highways, avoid hitting obstacles, and (hopefully) safely drive its passengers to their destination.
+Computer vision enables self-driving cars to make sense of their surroundings. Cameras capture video from different angles around the car and feed it to computer vision software, which then processes the images in real-time to find the extremities of roads, read traffic signs, and detect other cars, objects, and pedestrians. The self-driving car can then steer its way on streets and highways, avoid hitting obstacles, and (hopefully) safely drive its passengers to their destination.
 
-![](https://lh5.googleusercontent.com/PxGT\_muk8J7M2MND1dhh3rmkcNnDFuGvwIUUCrUtooIK1KyqX1K35hf617nu4ZqvkJWxZlrcC\_yn3q-tf3WMcEQwa\_yF5d0MKW-pdDZ8vlvdpseiZp0-et1ggS9yH4hYWJEjn8ppp8k)
 
-**CV In Facial Recognition**
 
-Computer vision also plays an important role in facial recognition applications, the technology that enables computers to match images of people’s faces to their identities. Computer vision algorithms detect facial features in images and compare them with databases of face profiles. Consumer devices use facial recognition to authenticate the identities of their owners. Social media apps use facial recognition to detect and tag users. Law enforcement agencies also rely on facial recognition technology to identify criminals in video feeds.
 
-![](https://lh4.googleusercontent.com/Jy73KqxvIwV9t0i31bOKdWaVOSnBSoUmejqGJi3Yed92QyyCZfJQoKsRGOgXJwXBVrOJ\_trqAp6m-y1vqY61L84YNYi5ZplCR\_275gBaBU9utS6Dcd-GRDcGYuntUqtEdTdS9A9XsmI)
 
-**CV In Healthcare**
 
-Computer vision has also been an important part of advances in health-tech. Computer vision algorithms can help automate tasks such as detecting cancerous moles in skin images or finding symptoms in x-ray and MRI scans.
 
-![](https://lh6.googleusercontent.com/uPsxaOmVE37E29UJ6b-5UxbeSm4e8zqxVDoFm-d85zX6Mt4XEF7YSlxzhKOon\_T1Bhsl0-yC9iSj8jprEcUGrlNWZnNM14AWhUc2PPwRX8fdieW8dlmvEg1te94saDBVsEIXJ97PJ78)
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_1b5683c870c644739a86e6456a05efb5.png)
+
+
+
+
+
+
+
+#### CV In Facial Recognition
+
+Computer vision also plays an important role in facial recognition applications, enabling computers to match images of people's faces to their identities. Computer vision algorithms detect facial features in images and compare them with databases of face profiles. Consumer devices use facial recognition to authenticate the identities of their owners. Social media apps use facial recognition to detect and tag users. Law enforcement agencies also rely on facial recognition technology to identify criminals in video feeds.
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_e154582e549d45c59bbf0485fa3fb2b0.png)
+
+
+
+
+
+#### CV In Healthcare
+
+Computer vision has also been an important part of advances in health tech. Computer vision algorithms can help automate tasks such as detecting cancerous moles in skin images or finding symptoms in x-ray and MRI scans.
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_5fed22bbb72240789b7f676307bec988.png)
+
+
+
+
+
+
+
+
+
 
 ### Computer Vision Tasks
 
 Many popular computer vision applications involve trying to recognize things in photographs; for example:
+* Object Classification: What broad category of object is in this photograph?
+* Object Identification: Which type of a given object is in this photograph?
+* Object Verification: Is the object in the photograph?
+ * Object Detection: Where are the objects in the photograph?
+ * Object Landmark Detection: What are the key points for the object in the photograph?
+* Object Segmentation: What pixels belong to the object in the image?
+* Object Recognition: What objects are in this photograph, and where are they?
 
-* **Object Classification:** What broad category of object is in this photograph?
-* **Object Identification:** Which type of a given object is in this photograph?
-* **Object Verification:** Is the object in the photograph?
-* **Object Detection:** Where are the objects in the photograph?
-* **Object Landmark Detection:** What are the key points for the object in the **** photograph?
-* **Object Segmentation:** What pixels belong to the object in the image?
-* **Object Recognition:** What objects are in this photograph and where are they?
 
-![](https://lh4.googleusercontent.com/8zew3KIwPtgopnq6zikmk\_rD-CZzK3Z2UQGXXYWC75fBNG9ojjt0i-L4HPZGxNA5q\_cSRdx563KKyf\_XBUxYs6Yc3auj9l1oQN1ItJPPXgpNVczVXLUr8e2xVuz23KTIdCaaTptChz8)
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_59f09a725d004678af029b0305917594.png)
+
+
+
+
+
+
+
+
 
 Outside of just recognition, other methods of analysis include:
 
-* **Video motion analysis** uses computer vision to estimate the velocity of **** objects in a video, or the camera itself.
-* In **image segmentation**, algorithms partition images into multiple sets of views.
-* **Scene reconstruction** creates a 3D model of a scene inputted through **** images or video.
-* In **image restoration**, noise such as blurring is removed from photos using Machine Learning based filters.
+* Video motion analysis uses computer vision to estimate the velocity of objects in a video or the camera itself.
+* In image segmentation, algorithms partition images into multiple sets of views.
+* Scene reconstruction creates a 3D model of a scene inputted through images or video.
+* Image restoration removes noise such as blurring from photos using Machine Learning based filters.
 
 Any other application that involves understanding pixels through software can safely be labeled as computer vision.
 
 Stating these tasks tackled by Computer Vision is not to overwhelm you but to introduce you to the immense capabilities Computer Vision holds.
 
-### **Getting started with the basics of OpenCV and image processing**
+## Basics of OpenCV and image processing
 
-**What is OpenCV?**
 
-* OpenCV (Open Source Computer Vision) is a library with functions that mainly aim at real-time computer vision. OpenCV supports Deep Learning frameworks like Caﬀe, Tensorflow, Torch/PyTorch.
+### What is OpenCV?
 
-Role of OpenCV in a deep learning computer vision project
 
-* **OpenCV is not used** to train the neural networks—you **** should do that with a framework like TensorFlow or PyTorch, and then export the model to run in OpenCV.
-* **OpenCV is used** to take a trained neural network model, **** prepare and preprocess images for it, apply it to the images and output results. You can also use it to combine neural networks with other computer vision algorithms available in OpenCV.
 
-**OpenCV Applications**
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_b9bd251cd13a40878ab9b37c96850a38.png)
 
+
+
+OpenCV (Open Source Computer Vision) is a library with functions mainly aimed at real-time computer vision. OpenCV supports Deep Learning frameworks like Caffe, Tensorflow, and Torch/PyTorch.
+
+### Role of OpenCV in a computer vision project
+* OpenCV is not used to train the neural networks—you should do that with a framework like TensorFlow or PyTorch and then export the model to run in OpenCV.
+* OpenCV is used to take a trained neural network model, prepare and preprocess images for it, apply it to the images, and output results. You can also combine neural networks with other computer vision algorithms available in OpenCV.
+
+### OpenCV Applications
 * Detecting and recognizing faces
 * Identifying objects
 * Classifying human actions in videos
@@ -176,22 +322,31 @@ Role of OpenCV in a deep learning computer vision project
 * Finding similar images from an image database
 * Removing red eyes from images
 * Following eye movements
-* Recognizing scenery adding markers to enable augmented reality (AR)
+* Recognizing scenery by adding markers to enable augmented reality (AR)
 
 And many more.
 
 ### Colour images in OpenCV
 
-* In OpenCV color images in the RGB (Red, Green, Blue) color space have a 3-tuple associated with each pixel: (B, G, R) .
-* Notice the **ordering is BGR rather than RGB**. This is because when OpenCV was first being developed many years ago the standard was BGR ordering. Over the years, the standard has now become RGB but OpenCV still maintains this “legacy” BGR ordering to ensure no existing code breaks.
+* OpenCV color images in the RGB (Red, Green, Blue) color space have a 3-tuple associated with each pixel: (B, G, R).
+* Notice the ordering is BGR rather than RGB. This is because when OpenCV was first developed many years ago, the standard was BGR order. Over the years, the standard has become RGB, but OpenCV maintains this "legacy" BGR order to ensure no existing code breaks.
 
 ### Installing OpenCV
+Before you can start learning OpenCV, you must install the OpenCV library on your system.
+* If you are working on a Jupyter notebook on your device, you can
+install OpenCV with:  
+`pip install opencv-python`
+* Colab users don't need to worry about this. OpenCV is installed by default in Google Colab.
 
-Before you can start learning OpenCV you first need to install the OpenCV library on your system.
+### Basic OpenCV Operations in practice
+* The following notebook elaborates on the most commonly used
+commands in OpenCV: https://github.com/dphi-official/Deep_Learning_Bootcamp/blob/master/OpenCV/DL_Day12_OpenCV.ipynb
 
-* If you are working on Jupyter notebook in your device, you can install OpenCV with: `pip install opencv-python`
-* Colab users don’t need to worry about this. OpenCV is installed by default in Google Colab.
+### Slide Download Link
+You can download the slides for this module from [here](https://docs.google.com/presentation/d/1h0Vw2h_HISqP4Di9DCSk-A_wwIgGtQf-j4ZBJJnSuJ0/edit?usp=sharing).
 
-Basic OpenCV Operations in practice
-
-* The following notebook elaborates on the most commonly used commands in OpenCV: [https://dphi.tech/notebooks/1727/manish\_kc\_06/computer-vision-o](https://dphi.tech/notebooks/1727/manish\_kc\_06/computer-vision-opencv)[pencv](https://dphi.tech/notebooks/1727/manish\_kc\_06/computer-vision-opencv)
+### References
+* https://towardsdatascience.com/how-does-computer-understand-images-c1566d4537bf
+* https://towardsdatascience.com/everything-you-ever-wanted-to-know-about-computer-vision-heres-a-look-why-it-s-so-awesome-e8a58dfb641e
+* https://www.pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/
+* https://www.edureka.co/blog/python-opencv-tutorial/
