@@ -167,11 +167,11 @@ The further you advance into it, the more complex the features it can recognize.
 * In practical terms, deep learning is just a subset of machine learning.
 * In fact, deep learning technically is machine learning and functions in a similar way (hence why the terms are sometimes loosely interchanged). However, its capabilities are different.
 * If you’ve worked with Machine Learning in the past, you might have heard about Feature Extraction. What is it?
-* **Feature Extraction** means extracting the useful features of a **** dataset.
+* **Feature Extraction** means extracting the useful features of a dataset.
 * For eg. The stem and body of an apple.
 * In traditional Machine learning techniques, most of the features need to be identified by an domain expert in order to reduce the complexity of the data and make patterns more visible for learning algorithms to work.
 * Unfortunately, **feature extraction** is a **separate** and often a **manual** **component** in machine learning pipeline and it is **time-consuming**.
-* The biggest advantage of Deep Learning algorithms are that they **try to** **learn features from data** in an **incremental manner**. As discussed **** before, the model will first learn the basic constituents/low-level features before moving on to the high level ones i.e it learns on ITS OWN!
+* The biggest advantage of Deep Learning algorithms are that they **try to** **learn features from data** in an **incremental manner**. As discussed before, the model will first learn the basic constituents/low-level features before moving on to the high level ones i.e it learns on ITS OWN!
 * This **eliminates the need of domain expertise and hard core feature** **extraction.**
 * Have a look at the below figure to understand this better.
 
@@ -195,8 +195,7 @@ The further you advance into it, the more complex the features it can recognize.
 ### Why is Deep Learning so popular?
 
 * In 2012, deep neural networks began to outperform traditional classification algorithms, including machine learning algorithms.
-* This is largely due to **increased performance of computer processors (CPUs**
-* **GPUs)** and **larger storage media for retaining huge training datasets**. **** Every year since, deep learning has continued to get better, becoming state of the art for solving problems in many diﬀerent domains. This explosion in deep learning is largely thanks to improvements in hardware and massive labeled data sets that allow deep learning models to improve quickly over time.
+* This is largely due to **increased performance of computer processors (CPUs & GPUs)** and **larger storage media for retaining huge training datasets**. Every year since, deep learning has continued to get better, becoming state of the art for solving problems in many diﬀerent domains. This explosion in deep learning is largely thanks to improvements in hardware and massive labeled data sets that allow deep learning models to improve quickly over time.
 
 
 
