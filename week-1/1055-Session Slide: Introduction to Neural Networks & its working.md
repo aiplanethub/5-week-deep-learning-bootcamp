@@ -235,7 +235,7 @@ Classification: **Predicting what class/group certain element belongs to.**
 
 *   **TensorFlow:**&#x20;
     * Google’s DL framework.&#x20;
-    * Can also work on ioS and Android
+    * Can also work on iOS and Android
 * **Pytorch:**&#x20;
   * Operates with a dynamically updated graph. It allows you to make changes to the architecture in the process.
 * **Sonnet:**
