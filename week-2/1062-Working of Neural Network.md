@@ -1,5 +1,3 @@
-# Working of Neural Network
-
 ### Learning Objectives
 
 * Story time of A.N.N & Non Linear Boundary
@@ -16,20 +14,62 @@
 * Was she able to succeed? Watch the video to find out.
 
 
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/HJiP4f-1_UY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
 
 
 ### Classification
 
-* **Classification** is a process of dividing the given data points into two **** or more classes.
-* **For example,** in the given image we are classifying the data into **** two classes **class A** and **class B**.
+* **Classification** is a process of dividing the given data points into two or more classes.
+* **For example,** in the given image we are classifying the data into two classes **class A** and **class B**.
 * The data in the image are classified with a straight line (i.e. linear boundary)
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FLPfHTf9tATQ9K5GexV0K%2Fimage.png?alt=media&token=cdf06c52-dca1-4bb9-a558-12487c28e0d5)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_d2bfe35ccb16446888d51080f449e8d2.png)
+
+
+
+
+
+
+
+
+
 
 ### **Non - Linear Boundary**
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FnGSTrbTXxRsc2MR508ML%2Fimage.png?alt=media&token=84963349-82cb-49b0-93ed-c17f048332a4)
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_1cf072d6e2564631989942f72118d08d.png)
+
+
+
+
+
 
 Both the models above are unable to classify our data into 2 classes because in both the cases the red points (significant in number) is present on the both sides of the line.
 
@@ -37,7 +77,13 @@ We thus need something better than a straight line to divide our data into 2 sep
 
 Realistic data is much more complex and not always classified by a straight line. For this purpose, we need a non-linear boundary to separate our data. Perceptron model works on the most basic form of a neural network, but for realistic data classification, we use **Deep Neural Network** or **Multi Layer** **Perceptrons**.
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FSkylS2evKcamVu3tCvFQ%2Fimage.png?alt=media&token=fa3e6d70-a5fe-4114-bb85-48a4ef40830a)
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_ea0431439a264a3ca76c7e233d52d5e2.png)
+
+
+
+
 
 ### Neural Network: Architecture
 
@@ -46,27 +92,83 @@ Realistic data is much more complex and not always classified by a straight line
 * Simple terms, to transform input into a meaningful output
 * NN consists of an input and output layer with one or more hidden layers.
 
-![](https://lh6.googleusercontent.com/DO\_4PSS4f4FGPgIuwizVwip-qkpmYxvWEQfGU5CLXnoCdNtWO31THD8rpNqhJHa7SBAauVLzvyVcu0d\_CLl1egF9oIyiGWaWodddjqGkkzdmh4\_EEdWTYaPxEE2iYCyY\_fioS0hV\_98)
+
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_a4f8c43b67e04e1bb4f3f847397c6627.png)
+
+
+
+
+
+
 
 ### Neural Network Components
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FQGKjSF9j1804oXcfV0gO%2Fimage.png?alt=media&token=17e3c1c7-38d9-464f-8ee8-5701ba3677c8)
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_793d66cd01c745969f32ae83219494b9.png)
+
+
+
 
 * Outermost yellow layer is the **input layer**. A neuron is the basic unit of a neural network. In this case the input layer has three neurons. The inputs are simply the measure of our features. For example, in the boston house price data in the Linear Regression with tf.keras notebook, there were 13 input features, so the input layer will have 13 neurons.
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FTtSZ2JUDHSqx1EjuAfqt%2Fimage.png?alt=media&token=9cd6ad18-f5b2-4e76-ac38-73576240cba7)
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_cbb97d1cebf74f76a1c9828ff6c0b354.png)
+
+
+
+
+
 
 * The blue layer and the green layer are two **hidden layers** which are not directly observable while building the neural network. The number of neurons in these hidden layers are initially assigned by us and we can find the optimal number of neurons in hidden layer through hyperparameter tuning.
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FZ6re7AYsoK8WwCBhY9wq%2Fimage.png?alt=media&token=b3376845-7f61-4e9d-8957-16089df10b20)
 
-* The red layer is the **output layer**. This is the last layer of a neural network that produces the required output. For example, **‘MEDV’** (Median value of owner-occupied homes in 1000 USD's) was the output layer in [boston](https://github.com/dphi-official/Deep\_Learning\_Bootcamp/blob/master/Linear\_Regression/Linear\_Regression\_with\_tf\_keras\_Beginners.ipynb) [house price dataset](https://github.com/dphi-official/Deep\_Learning\_Bootcamp/blob/master/Linear\_Regression/Linear\_Regression\_with\_tf\_keras\_Beginners.ipynb).
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FD3MOvta7kMD4RmLaBpl2%2Fimage.png?alt=media&token=f1902525-a8b1-4107-8bd4-fb23fcfafb4d)
 
-* **Weights:** There is some weight assigned for each connection. Weights **** represent scalar (constant) multiplication. Initially these are assigned randomly, then these weights are updated as per their importance in predicting the output. The updation of weight is done through back propagation (you will know this in upcoming slides).
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2F9gfM2aV7fiDxgC9ZmMVw%2Fimage.png?alt=media&token=4ae3d032-7ce4-4487-98a5-5b87ff6a98db)
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_8a7f35fbb55643a799411f185f88c3b4.png)
+
+
+
+* The red layer is the **output layer**. This is the last layer of a neural network that produces the required output. For example, **‘MEDV’** (Median value of owner-occupied homes in 1000 USD's) was the output layer in [boston house price dataset](https://github.com/dphi-official/Deep\_Learning\_Bootcamp/blob/master/Linear\_Regression/Linear\_Regression\_with\_tf\_keras\_Beginners.ipynb).
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_171efc2c73c844b0841bad8a7e69fe40.png)
+
+
+
+
+* **Weights:** There is some weight assigned for each connection. Weights represent scalar (constant) multiplication. Initially these are assigned randomly, then these weights are updated as per their importance in predicting the output. The updation of weight is done through back propagation (you will know this in upcoming slides).
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_44d108ef0858440d90ba92be63a3a5b4.png)
+
+
+
 
 * Now we know each neuron in input layer has a value given in the dataset. Some random weights are assigned for each connection. When the value of each neuron in input layer is multiplied with its respective weight for the next connecting neuron and added all together, produces the value of next connecting neuron in the next layer. Don’t worry if you don’t understand here. An example of this calculation is shown below.
 
@@ -74,7 +176,23 @@ Realistic data is much more complex and not always classified by a straight line
 
 * A simple example on how the values of each neurons are calculated using weights and input values.
 
-![](https://lh3.googleusercontent.com/DS9mVT75Y6dQ0k\_uScJkbO1OGCeBK8bw\_uo7bm6DV2JwD9iAENITVvQq5XLpCii6zELW48qi3r6wGmygK8qH9jx3pdiR4yEPhXO\_ejw7\_sqYoH5aD5TuHAFsqhH1KTpkwUh1H11roJM)
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_2d48f65262e14827a95d475c0fc08f3d.png)
+
+
+
+
+
+
+
+
 
 * In the above image: w1 is the weight from first neuron of input layer to the first neuron of hidden layer. Same goes with w2 and w3
 * The value of each other neuron in each hidden layer is calculated in the same way we calculated the value of the first neuron of the first hidden layer in the previous slide.
@@ -82,7 +200,7 @@ Realistic data is much more complex and not always classified by a straight line
 
 ### **Let’s understand what we learnt using a simple task**
 
-\-Task - Making tea
+### Task - Making tea
 
 * Now imagine you are a Tea Master…….
 * The ingredients used to make tea (water, tea leaves, milk, sugar, and spices) are the “**neurons**” since they make up the starting points of the process. The amount of each ingredient represents the “**weight**.” Once you put in the tea leaves in the water and add the sugar, spices, and milk in the pan, all the ingredients will mix and transform into another state. This transformation process represents the “**activation function**.”
@@ -104,25 +222,64 @@ Summary of Tea Example
 
 ### Another intuitive Explanation of Neural Networks
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/ER2It2mIagI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
 
 
 ### Explanation of Neural Networks (Optional)
 
 * If you like understanding things through Mathematics, this is for you!
 
+
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/aircAruvnKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
 
 
 ### **Working of a Neural Network**
 
-In the next set of slides, we will be discussing about the working on Neural Networks that includes 3 main steps:
+In the next section, we will be discussing about the working on Neural Networks that includes 3 main steps:
 
 1. Forward Propagation
 2. Gradient Descent
 3. Backward Propagation
 
-**What are they?** These are the three important pillars of the **** neural network working and we will learn more about its prominence in next few slides.
+**What are they?** These are the three important pillars of the neural network working and we will learn more about its prominence in next few slides.
 
 **Why Forward Propagation in NN?**
 
@@ -144,7 +301,19 @@ What is Forward Propagation in NN?
 * Well, if you break down the words, **forward** implies moving ahead and **propagation** is a term for saying spreading of anything.
 * Forward propagation means we are moving in only one direction, from input to the output, in a neural network.
 
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FreBCHukHbNGhAKeIyZLx%2Fimage.png?alt=media&token=bfc4e166-0c6f-4964-9b86-6ba3e9e043c4)
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_a1573055023346b7a18aa6d0d1b1dce4.png)
+
+
+
+
+
+
 
 * The video below takes a Bank Transaction Dataset Example. The dataset has two features; number of children and accounts and the objective is to predict how many transaction will a user make at bank.
 * The video covers the following aspects:
@@ -155,7 +324,29 @@ What is Forward Propagation in NN?
 
 **Note: In the video**, the inputs (2,3) and weight allocation (1, -1 **** etc) are randomly assigned for explanation. NO need to bother to know how they started appearing all at a sudden!
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <iframe width="100%" height="315" src="https://youtube.com/embed/wL17g67vU88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
 
 
 ### **2. Gradient Descent Refresher**
@@ -164,9 +355,18 @@ What is Forward Propagation in NN?
 * **Gradient** = rate of inclination or declination of a slope (**how steep** a **** slope is and in **which direction** it is going) of a function at some point.
 * **Descent** = an act of moving downwards.
 
-![](https://lh6.googleusercontent.com/A2xgIx6FMmpOCQSKyxn6xEbPLC5u3oDSNp1smzaRr0-7bz2EjJ-eQEpdCML8Llgs9m0HVd2FI6zsFN1r86VSzq7jgKTHb-oKNoB3SOwkCl4tFNDKGN5F\_OP\_EET0G6gdeyOqDtFtMP4)
 
-Simple way to memorize:
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_27339dadf811418b80af54a7abe118c2.png)
+
+
+
+
+
+A simple way to memorize:
 
 * line going up as we move right → positive slope, gradient
 * line going down as we move right → negative slope, gradient
@@ -184,46 +384,128 @@ Simple way to memorize:
 * He goes down the slope and takes **large steps when the slope is** **steep** and **small steps when the slope is less steep**.
 * He decides his next position based on his current position and **stops** **when he gets to the bottom of the valley which was his goal.**
 
-![](https://lh3.googleusercontent.com/7Xw9-94Zcw4Jkf6l-ufr7HqgKccO9lxCOlES4mISDyph2NbvgFI3iI-2RXOL6\_lgXOZGNnAbhxmKZx9nNWHbRioZ2wbkHuaWmlH8aA7LWy0vbfUHETuDCiaT\_oZbaUe5q9veuLYegzY)
+
+
+
+
+
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_2fd7c0859f4a44a894d4d51ab5108cb0.png)
+
+
+
+
+
+
+
+
 
 ### Gradient Descent in action
 
-![](https://lh4.googleusercontent.com/FMsXNjMZOnBaiafkdBjJ9-SlusCh9DWZxsMwuh1Vc8v22OQAFLA2sBzEF-ujugYO18KE1Yon4Pl73XUuE64Gvmgehj1hgQAzzSmglnskKmNufz4aZfqJopq8nbzRy942IrCN0F-ned4)
 
-* Now, think of the valley as a cost function. The objective of GD is to minimise the cost function (by updating it’s parameter values). In this case the minimum value would be 0.
-* ![](https://lh4.googleusercontent.com/4uQAKSCC035txIXW2Lhk8xV39ERnzy17iJyZb0Otd2UraFffikuC4BFErzekTdipkMrnhECpRLY1SdjXbB4VoFho9HbRh82YDr42YLfgqxWTqQeE4io-J4wRp0NV1-yBnpOwvYF0YwA)
+
+
+
+![image1.gif](https://dphi-live.s3.amazonaws.com/media_uploads/image1_a304b46f3cbf4f42bed618e4cac79a50.gif)
+
+
+
+
+Now, think of the valley as a cost function. The objective of GD is to minimize the cost function (by updating its parameter values). In this case, the minimum value would be 0.
 
 ### What does a cost function look like?
 
-* **J** is the cost function, plotted along it’s parameter values. Notice the **** crests and troughs.
+J is the cost function, plotted along its parameter values. Notice the crests and troughs.
 
-![](https://lh5.googleusercontent.com/muo3pPbhF8J05dlNp1jS5HSRJTMzIuPyTLPEN1WPZQP2mad3P1wfD1GBt6lBgGpRcWjuNvb-XD4j69yFetEFcOwkACZ7J8jAQKH7WDPXYnMGyfPpyU\_OXw3It2mxQpYASiJDbESJVSg)
 
-![](https://lh3.googleusercontent.com/5gl9JoaGlZ7AQvXLpiSraT5IeFr1Vq3FqSWhHvzyzIMnv9RSNiVa4VMO\_bHdGzhzJeKgA\_p\_EP4r-ou2sK6C3zlzlejZnjcGXX80IHJb\_FK66YtuOyOVGC5fEMCcn61Gg28kC-EpwEY)
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_91ec84dd0dbf406f923a52444bbb4a7d.png)
+
+
+
 
 ### How we navigate the cost function via GD
 
-![](https://lh4.googleusercontent.com/fO7j0DA8lz9Nt8iR2UilrCmCHrFZHIepWFN-XjSgkqrQYLDvsJ3oHoNKihhT96\_YlLPU3FodJV5fim\_ebwNhNBMD-x9WFQOlPNPiOsXr4ZrQvLLAzd\_VCpDy\_iKtoJ7JUgcSfhMX\_IQ)
-
-### **3. Backward Propagation**
-
-What is Backward Propagation in NN?
-
-* **Backward propagation** means we are moving in only one direction, from **** output to the input, in a neural network.
-* Backward propagation is also called as **Back Propagation** in short.
-
-![](https://3298224505-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FO6zK5zzcnrnToWx3Brks%2Fuploads%2FhYnKoATNnafTrJOjbzl5%2Fimage.png?alt=media&token=86b4ab6c-dd7c-4efa-8a39-d91b91e43db9)
-
-**NOTE:** Stochastic Gradient Descent (SGD) that the **** instructor is sometimes mentioning in the next video is just a type of Gradient Descent. Don’t worry about its exact working.
-
-<iframe width="100%" height="315" src="https://youtube.com/embed/XE3krf3CQls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Summarising the working of a NN
 
-* A Neural Network passes data to model via **forward propagation**.
+
+
+
+![image1.gif](https://dphi-live.s3.amazonaws.com/media_uploads/image1_f36121f4409546dcaef8053cba6de053.gif)
+
+
+
+
+
+
+
+
+
+
+## Backward Propagation
+
+### What is Backward Propagation in NN?
+
+* Backward propagation means moving in only one direction in a neural network, from output to input.
+* Backward propagation is also called Backpropagation in short.
+
+
+
+
+
+![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_dc12b8701ff44842b014fe635ce18d8d.png)
+
+
+
+
+
+
+
+
+
+NOTE: Stochastic Gradient Descent (SGD) that the instructor sometimes mentions in the following video is just a type of Gradient Descent. Don't worry about its exact working.
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XE3krf3CQls?start=100" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+### Backpropagation Calculus (Optional)
+If you like understanding things through Mathematics, this is for you! ????
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tIeHLnjs5U8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+## Summarising the working of a NN
+* A Neural Network passes data to the model via forward propagation.
 * When it reaches the last(output) layer, it calculates loss on output.
-* It then **back propagates** information about the loss/error, in reverse through the network to the input layer, so that it can alter the parameters **weights**.
-* Gradient Descent is calculated via backpropagation and works to minimise this loss:
-  * By calculating gradient of loss function according to weights
+* It then back propagates information about the loss/error, in reverse, through the network to the input layer so that it can alter the parameters/weights.
+* Gradient Descent is calculated via Backpropagation and works to minimize this loss:
+  * By calculating the gradient of loss function according to weights
   * Updating weights accordingly
+
+Download the slides for this module [from here](https://docs.google.com/presentation/d/1giN8HnKYKvLJ59OMJYglU4H0uMCjnqZb7QsQ1lXkXhk/edit?usp=sharing).
