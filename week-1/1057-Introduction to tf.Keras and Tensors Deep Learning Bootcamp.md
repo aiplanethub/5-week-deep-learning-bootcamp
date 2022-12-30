@@ -221,5 +221,5 @@ On going through the below short resources from Tensorflow’s oﬃcial document
 
 ### Let’s Practice
 
-* **Tensorflow Operations Notebook:** https://dphi.tech/notebooks/1721/manish\_kc\_06/introduction-to-tensors-1
-* https://dphi.tech/notebooks/1722/manish\_kc\_06/introduction-to-tensors-2
+* **Tensorflow Operations Notebook:** https://aiplanet.com/notebooks/1721/manish_kc_06/introduction-to-tensors-1
+* https://dphi.tech/notebooks/1722/manish_kc_06/introduction-to-tensors-2
